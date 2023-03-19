@@ -40,11 +40,11 @@ const Footer = () => {
                           <p className="text-white text-[16px] mb-[10px]">Welcome and open yourself to your truest love this year with us! With the Release
                             Process</p>
                             <ul className="overflow-hidden pt-[15px]">
-                               <li className="text-white float-left group "><a className="text-white transition-all group-hover:text-[#FFE600]" href="#"><i className="ti-facebook"></i></a></li>
-                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="#"><i className="ti-twitter-alt"></i></a></li>
-                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="#"><i className="ti-linkedin"></i></a></li>
-                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="#"><i className="ti-pinterest"></i></a></li>
-                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="#"><i className="ti-vimeo-alt"></i></a></li>
+                               <li className="text-white float-left group "><a className="text-white transition-all group-hover:text-[#FFE600]" href="/"><i className="ti-facebook"></i></a></li>
+                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="/"><i className="ti-twitter-alt"></i></a></li>
+                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="/"><i className="ti-linkedin"></i></a></li>
+                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="/"><i className="ti-pinterest"></i></a></li>
+                               <li className="text-white float-left group ml-[15px]"><a className="text-white transition-all group-hover:text-[#FFE600]" href="/"><i className="ti-vimeo-alt"></i></a></li>
                             </ul>
                         </div>
 

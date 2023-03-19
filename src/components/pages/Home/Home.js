@@ -500,7 +500,7 @@ const Home = () => {
                             <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Trapeza Group,
                                 USA.</p>
                         </li>
-                        <li className="col:text-center col:mt-[10px]"><a href="#"
+                        <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
                                 <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>Go to website</a>
                         </li>
@@ -518,7 +518,7 @@ const Home = () => {
                             <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Gallerie
                                 Ontario, Canada <span className="text-[#727272] inline-block">(Remote)</span></p>
                         </li>
-                        <li className="col:text-center col:mt-[10px]"><a href="#"
+                        <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
                                 <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>Go to website</a>
                         </li>
@@ -537,7 +537,7 @@ const Home = () => {
                             <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Morson Hybrid,
                                 Canada</p>
                         </li>
-                        <li className="col:text-center col:mt-[10px]"><a href="#"
+                        <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
                                 <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>Go to website</a>
                         </li>
@@ -555,7 +555,7 @@ const Home = () => {
                             <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Myant Inc.
                                 Etobicoke, ON <span className="text-[#727272] inline-block">(Remote)</span> </p>
                         </li>
-                        <li className="col:text-center col:mt-[10px]"><a href="#"
+                        <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
                                 <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>Go to website</a>
                         </li>
