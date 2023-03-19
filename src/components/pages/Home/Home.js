@@ -22,7 +22,9 @@ const Home = () => {
 <Header/>
         {/* <!-- start elito-hero-section --> */}
         <section className=" bg-[#131313] h-[940px] xl:h-[900px] lg:h-[650px] md:h-[950px] sm:h-[850px] col:h-[800px]  relative z-40 overflow-hidden">
-                <div className="w-full h-full bg-cover bg-center  text-left z-50">
+        <div className="row">
+            <div className="col-md-6">
+            <div className="w-full h-full bg-cover bg-center  text-left z-50">
                     <div className="wraper">
                             <div className="flex-1">
                                 <div className="w-[660px] lg:w-[470px] mt-[210px] xl:mt-[150px]  md:mt-[100px] md:w-full  md:text-center">
@@ -37,8 +39,10 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="absolute top-[53%] rounded-[50%] right-[200px] z-10 transform -translate-y-1/2 2xl:max-w-[500px] lg:max-w-[450px]  lg:top-[54%] 2xl:right-[80px] xl:right-[30px] lg:right-[50px] md:top-[68%] md:mx-auto md:right-auto md:left-1/2 md:-translate-x-1/2 sm:top-[75%] sm:w-[400px] sm:h-[400px] sm:left-1/2 sm:m-0 col:top-[68%] col:w-[300px] col:h-[300px]">
-                        <img className="rounded-[50%]" src="/assets/images/slider/1.jpg" alt="" />
+            </div>
+            <div className="col-md-6">
+            <div className="absolute top-[53%] rounded-[50%] right-[200px] z-10 transform -translate-y-1/2 2xl:max-w-[500px] lg:max-w-[450px]  lg:top-[54%] 2xl:right-[80px] xl:right-[30px] lg:right-[50px] md:top-[68%] md:mx-auto md:right-auto md:left-1/2 md:-translate-x-1/2 sm:top-[75%] sm:w-[400px] sm:h-[400px] sm:left-1/2 sm:m-0 col:top-[68%] col:w-[300px] col:h-[300px]">
+                        <img className="rounded-[50%]" src="/assets/images/slider/1.jpg" alt="" style={{maxWidth : '600px'}} />
                              <div className="absolute left-0 top-[20%] w-[110px] h-[110px] p-[20px] bg-white rounded-[25px] md:top-[15%] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] col:top-[10%] col:w-[70px] col:h-[70px] col:p-[15px] col:rounded-[15px] floating-item">
                                 <img className="rounded-[0px] max-w-[100%]" src="/assets/images/icon/photoshop.svg" alt="" />
                             </div>
@@ -58,6 +62,9 @@ const Home = () => {
                                 </div>
                             </div>
                     </div>
+            </div>
+        </div>
+         
 
             <div className="absolute top-0 left-0 -z-10">
                 <svg className=" fill-[#FF4155]" width="1038" height="938" viewBox="0 0 1038 938" fill="none">
@@ -288,7 +295,7 @@ const Home = () => {
 
                 <div className="tab-content" id="tabs-tabContentFill">
                     {/* <!-- service-content --> */}
-                    <div className="tab-pane" id="tabs-homeFill" role="tabpanel" aria-labelledby="tabs-home-tabFill">
+                    <div className="tab-pane show active" id="tabs-homeFill" role="tabpanel" aria-labelledby="tabs-home-tabFill">
                         <div className="mt-[65px]">
                             <div className="w-[31%] lg:w-[30%] md:w-[46%] sm:w-full mx-[10px] sm:mx-0 inline-block bg-[#232221] border-2 border-[#373737] rounded-[12px] 
                                 text-center px-[40px] lg:px-[20px] py-[50px] md:mb-[30px] group">
@@ -300,7 +307,7 @@ const Home = () => {
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px] leading-[31px] text-white mb-[20px] text-center">
-                                    Web Development</h2>
+                                    React App Development</h2>
                                 <p className="text-[16px] md:text-[14px] text-[#D8D8D8] my-6 md:my-4">Explain to you how all
                                     this mistaken idea of denouncing pleasure born and give you complete account the
                                     system.</p>
@@ -318,7 +325,7 @@ const Home = () => {
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px] leading-[31px] text-white mb-[20px] text-center">
-                                    App Development</h2>
+                                    Angular App Development</h2>
                                 <p className="text-[16px] md:text-[14px] text-[#D8D8D8] my-6 md:my-4">Explain to you how all
                                     this mistaken idea of denouncing pleasure born and give you complete account the
                                     system.</p>
@@ -332,11 +339,11 @@ const Home = () => {
                                     className="max-w-[120px] max-h-[120px] bg-[#373737]
                                       group-hover:bg-[#59C378] mx-auto leading-[120px] mb-[30px] rounded-[50%] transition-all">
                                     <i
-                                        className="fi flaticon-smartphone transition-all text-[50px] text-[#FFE600] group-hover:text-white"></i>
+                                        className=" fi flaticon-smartphone transition-all text-[50px] text-[#FFE600] group-hover:text-white"></i>
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px]  leading-[31px] text-white mb-[20px] text-center">
-                                    Softwere Development</h2>
+                                    Python/Ai Development</h2>
                                 <p className="text-[16px] md:text-[14px] text-[#D8D8D8] my-6 md:my-4">Explain to you how all
                                     this mistaken idea of denouncing pleasure born and give you complete account the
                                     system.</p>
@@ -348,7 +355,7 @@ const Home = () => {
                     </div>
 
                     {/* <!-- service-content --> */}
-                    <div className="tab-pane show active" id="tabs-profileFill" role="tabpanel"
+                    <div className="tab-pane" id="tabs-profileFill" role="tabpanel"
                         aria-labelledby="tabs-profile-tabFill">
                         <div className="mt-[65px]">
                             <div className="w-[31%] lg:w-[30%] md:w-[46%] sm:w-full mx-[10px] sm:mx-0 inline-block bg-[#232221] border-2 border-[#373737] rounded-[12px] 
@@ -379,7 +386,7 @@ const Home = () => {
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px] leading-[31px] text-white mb-[20px] text-center">
-                                    Brand Identity</h2>
+                                    Product Design</h2>
                                 <p className="text-[16px] md:text-[14px] text-[#D8D8D8] my-6 md:my-4">Explain to you how all
                                     this mistaken idea of denouncing pleasure born and give you complete account the
                                     system.</p>
