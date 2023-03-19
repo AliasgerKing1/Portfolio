@@ -743,17 +743,23 @@ const Home = () => {
                         <div className="relative w-[474px] h-[469px] col:w-[220px] col:h-[220px] z-10 flex justify-center flex-col mx-auto md:mb-[40px]">
                              <div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] z-10 sm:mx-auto">
                                 <div className="slider-for slick-initialized slick-slider">
-                                    <div aria-live="polite" className="slick-list draggable"><div className="slick-track" style={{opacity: '1', width: '1500px'}} role="listbox"><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '250px', position: 'relative', left: '0px', top: '0px', zIndex: '999', opacity: '1'}} tabIndex="-1" role="option" aria-describedby="slick-slide00">
+                                    <div aria-live="polite" className="slick-list draggable"><div className="slick-track" style={{opacity: '1', width: '1500px'}} role="listbox"><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '250px', position: 'relative', left: '0px', top: '0px', zIndex: '999', opacity: '1'}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide00">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-1.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="1" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-250px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-describedby="slick-slide01">
+                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="1" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-250px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide01">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-2.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="2" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-500px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-describedby="slick-slide02">
+                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="2" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-500px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide02">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-3.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="3" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-750px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-describedby="slick-slide03">
+                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="3" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-750px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide03">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-4.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="4" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1000px', top:' 0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-describedby="slick-slide04">
+                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="4" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1000px', top:' 0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide04">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-5.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="5" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1250px', top: '0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-describedby="slick-slide05">
+                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="5" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1250px', top: '0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide05">
                                         <img className="rounded-[50%]" src="/assets/images/testimonial/img-6.jpg" alt="" />
                                     </div></div></div>
                                     
@@ -815,7 +821,8 @@ const Home = () => {
                                         </h3>
                                     </div>    
                                 </div>
-                                <div className="sm:text-center slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '654px'}} tabIndex="-1" role="option" aria-describedby="slick-slide10">
+                                <div className="sm:text-center slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '654px'}} tabIndex="-1" role="option" aria-selected="true"
+ aria-describedby="slick-slide10">
                                     <h2 className="font-medium text-[32px] leading-[52px]
                                      text-white font-base-font mb-[20px] sm:text-[24px] sm:leading-[35px] sm:mb-[10px]">Many desktop publishing packages and editors now use as their.</h2>
                                     <p className="font-normal text-[16px] leading-[30px] text-[#D8D8D8] ">It is a long established fact that a reader will be distracted by the
