@@ -252,7 +252,7 @@ const Home = () => {
                 <ul className="nav nav-tabs  flex col:flex-col-reverse items-center justify-center list-none"
                     id="tabs-tabFill" role="tablist">
                     <li className="nav-item text-center" role="presentation">
-                        <a href="#tabs-homeFill" className="nav-link inline-block focus:border-transparent border-tab
+                        <a href="#tabs-homeFill" className="nav-link inline-block focus:border-transparent border-tab active
                         w-[250px] md:w-[180px] sm:w-[120px] col:w-[150px] h-[65px] md:h-[55px] sm:h-[45px] bg-[#373737] active:bg-transparent 
                          text-center mr-7 md:mr-5 sm:mr-[10px] col:mr-0 rounded-[38px] font-bold text-[22px] md:text-[16px] sm:text-[14px] leading-[65px] 
                          md:leading-[55px] sm:leading-[35px] p-0 border-2 border-transparent 
@@ -262,7 +262,7 @@ const Home = () => {
 
                     </li>
                     <li className="nav-item text-center" role="presentation">
-                        <a href="#tabs-profileFill" className="nav-link inline-block focus:border-transparent border-tab active
+                        <a href="#tabs-profileFill" className="nav-link inline-block focus:border-transparent border-tab
                         w-[250px] md:w-[180px] sm:w-[120px] col:w-[150px] h-[65px] md:h-[55px] sm:h-[45px] bg-[#373737] active:bg-transparent 
                          text-center mr-7 md:mr-5 sm:mr-[10px] col:mr-0 rounded-[38px] font-bold text-[22px] md:text-[16px] sm:text-[14px] leading-[65px] 
                          md:leading-[55px] sm:leading-[35px] p-0 border-2 border-transparent 
