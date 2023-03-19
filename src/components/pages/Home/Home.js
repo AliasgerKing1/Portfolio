@@ -7,18 +7,6 @@ const Home = () => {
     <>
     {/* <!-- start page-wrapper --> */}
     <div className="page-wrapper">
-        {/* <!-- start preloader --> */}
-        {/* <div className="preloader">
-            <div className="vertical-centered-box">
-                <div className="content">
-                    <div className="loader-circle"></div>
-                    <div className="loader-line-mask">
-                        <div className="loader-line"></div>
-                    </div>
-                    <img src="/assets/images/preloader.png" alt="" />
-                </div>
-            </div>
-        </div> */}
 <Header/>
         {/* <!-- start elito-hero-section --> */}
         <section className=" bg-[#131313] h-[940px] xl:h-[900px] lg:h-[650px] md:h-[950px] sm:h-[850px] col:h-[800px]  relative z-40 overflow-hidden">
