@@ -66,7 +66,7 @@ const Header = () => {
                         </div>
                         <div className="w-[195px] md:w-[280px] sm:w-[200px] col:w-[50px]">
                             <NavLink className="text-[45px] col:text-[25px] font-bold flex items-center text-white" to="index-2.html">
-                            <img className=" rounded-[50%] mr-[10px] " style={{maxWidth : '70px'}} src="/assets/images/logo.png" alt="" />Aliasger.</NavLink>
+                            <img className=" rounded-[50%] mr-[10px] " src="/assets/images/logo.png" alt="" />Aliasger.</NavLink>
                         </div>
                         <ul className="md:hidden">
                             <li className="relative inline-block group">

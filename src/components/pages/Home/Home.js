@@ -30,7 +30,7 @@ const Home = () => {
             </div>
             <div className="col-md-6">
             <div className="absolute top-[53%] rounded-[50%] right-[200px] z-10 transform -translate-y-1/2 2xl:max-w-[500px] lg:max-w-[450px]  lg:top-[54%] 2xl:right-[80px] xl:right-[30px] lg:right-[50px] md:top-[68%] md:mx-auto md:right-auto md:left-1/2 md:-translate-x-1/2 sm:top-[75%] sm:w-[400px] sm:h-[400px] sm:left-1/2 sm:m-0 col:top-[68%] col:w-[300px] col:h-[300px]">
-                        <img className="rounded-[50%]" src="/assets/images/slider/1.jpg" alt="" style={{maxWidth : '600px'}} />
+                        <img className="rounded-[50%]" src="/assets/images/slider/1.jpg" alt=""/>
                              <div className="absolute left-0 top-[20%] w-[110px] h-[110px] p-[20px] bg-white rounded-[25px] md:top-[15%] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] col:top-[10%] col:w-[70px] col:h-[70px] col:p-[15px] col:rounded-[15px] floating-item">
                                 <img className="rounded-[0px] max-w-[100%]" src="/assets/images/icon/photoshop.svg" alt="" />
                             </div>
@@ -137,43 +137,64 @@ const Home = () => {
                             <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#acac39] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
                                 <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
                                     <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
-                                            className="odometer" data-count="98">95</span>%</h3>
+                                            className="odometer" data-count="95">95</span>%</h3>
                                     <p className="font-normal text-[16px] text-[#FFE600]">React</p>
-                                </div>
-                            </li>
-                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#59c37899] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
-                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
-                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
-                                        className="odometer" data-count="92">90</span>%</h3>
-                                <p className="font-normal text-[16px] text-[#59C378]">NodeJS</p>
-                                </div>
-                            </li>
-                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#dd584f99] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
-                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
-                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
-                                        className="odometer" data-count="88">83</span>%</h3>
-                                <p className="font-normal text-[16px] text-[#DD584F]">AngularJS</p>
-                                </div>
-                            </li>
-                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#ff9a0099] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
-                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
-                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
-                                        className="odometer" data-count="72">95</span>%</h3>
-                                <p className="font-normal text-[16px] text-[#FF9A00]">MongoDB</p>
                                 </div>
                             </li>
                             <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#00a9ff99] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
                                 <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
                                     <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
-                                        className="odometer" data-count="43">60</span>%</h3>
-                                <p className="font-normal text-[16px] text-[#00A9FF]">Github</p>
+                                        className="odometer" data-count="43">95</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#00A9FF]">Figma</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#59c37899] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                        className="odometer" data-count="90">90</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#59C378]">NodeJS</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#00a9ff99] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                        className="odometer" data-count="43">90</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#00A9FF]">PhotoShop</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#dd584f99] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                        className="odometer" data-count="83">83</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#DD584F]">AngularJS</p>
                                 </div>
                             </li>
                             <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#9e00ff99] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
                                 <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
                                     <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                        className="odometer" data-count="40">83</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#AD00FF]">Illustrator</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#ff9a0099] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                        className="odometer" data-count="95">95</span>%</h3>
+                                <p className="font-normal text-[16px] text-[#FF9A00]">MongoDB</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#acac39] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
+                                            className="odometer" data-count="60">60</span>%</h3>
+                                    <p className="font-normal text-[16px] text-[#FFE600]">Github</p>
+                                </div>
+                            </li>
+                            <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#59c37899] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
+                                <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center ">
+                                    <h3 className="font-bold text-[35px] text-white flex items-center justify-center"><span
                                         className="odometer" data-count="40">40</span>%</h3>
-                                <p className="font-normal text-[16px] text-[#AD00FF]">PYthon</p>
+                                <p className="font-normal text-[16px] text-[#59C378]">Python</p>
                                 </div>
                             </li>
                         </ul>
@@ -270,7 +291,7 @@ const Home = () => {
                             id="tabs-profile-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-profileFill"
                             role="tab" aria-controls="tabs-profileFill" aria-selected="false">Design</a>
                     </li>
-                    <li className="nav-item text-center" role="presentation">
+                    {/* <li className="nav-item text-center" role="presentation">
                         <a href="#tabs-messagesFill" className="nav-link inline-block focus:border-transparent border-tab
                         w-[250px] md:w-[180px] sm:w-[120px] col:w-[150px] h-[65px] md:h-[55px] sm:h-[45px] bg-[#373737] active:bg-transparent 
                          text-center mr-7 md:mr-5 sm:mr-[10px] col:mr-0 rounded-[38px] font-bold text-[22px] md:text-[16px] sm:text-[14px] leading-[65px] 
@@ -278,7 +299,7 @@ const Home = () => {
                          text-white active:text-[#FFE600] active:border-[#373737] col:mb-[10px]"
                             id="tabs-messages-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-messagesFill"
                             role="tab" aria-controls="tabs-messagesFill" aria-selected="false">Marketing</a>
-                    </li>
+                    </li> */}
                 </ul>
 
                 <div className="tab-content" id="tabs-tabContentFill">
@@ -291,7 +312,7 @@ const Home = () => {
                                     className="max-w-[120px] max-h-[120px] bg-[#373737]
                                       group-hover:bg-[#59C378] mx-auto leading-[120px] mb-[30px] rounded-[50%] transition-all">
                                     <i
-                                        className="fi flaticon-coding transition-all text-[50px] text-[#FFE600] group-hover:text-white"></i>
+                                        className="fi flaticon-coding  transition-all text-[50px] text-[#FFE600] group-hover:text-white"></i>
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px] leading-[31px] text-white mb-[20px] text-center">
@@ -313,7 +334,7 @@ const Home = () => {
                                 </div>
                                 <h2
                                     className="font-bold font-base-font text-[26px] lg:text-[20px] leading-[31px] text-white mb-[20px] text-center">
-                                    Angular App Development</h2>
+                                    Angular Development</h2>
                                 <p className="text-[16px] md:text-[14px] text-[#D8D8D8] my-6 md:my-4">Explain to you how all
                                     this mistaken idea of denouncing pleasure born and give you complete account the
                                     system.</p>
@@ -403,7 +424,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* <!-- service-content --> */}
-                    <div className="tab-pane" id="tabs-messagesFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
+                    {/* <div className="tab-pane" id="tabs-messagesFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
                         <div className="mt-[65px]">
                             <div className="w-[31%] lg:w-[30%] md:w-[46%] sm:w-full mx-[10px] sm:mx-0 inline-block bg-[#232221] border-2 border-[#373737] rounded-[12px] 
                                 text-center px-[40px] lg:px-[20px] py-[50px] md:mb-[30px] group">
@@ -460,7 +481,7 @@ const Home = () => {
                                         className="fi flaticon-right-arrow transition-all mr-7 sm:mr-3"></i> Learn More</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* <!-- end elito-service-wrap --> */}
 
@@ -487,13 +508,13 @@ const Home = () => {
                      bg-[#282828] px-[70px] md:px-[30px] py-[20px] rounded-lg border transition border-transparent hover:border hover:border-[#494949] ">
                         <li
                             className="base-font text-white font-bold text-3xl sm:w-1/2 sm:text-[16px] col:w-full col:text-center col:mb-[10px]">
-                            2015 - 2016</li>
+                            3 september 2022 - 27 january 2023</li>
                         <li><img src="/assets/images/work/1.png" alt="" className="sm:w-1/2 col:w-full col:text-center max-w-[100px] col:mx-auto" /></li>
                         <li className="sm:w-1/2 col:w-full col:text-center col:mt-[20px]">
-                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">Junior Visual Designer
+                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">React/Angular Training
                             </h2>
-                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Trapeza Group,
-                                USA.</p>
+                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Stepping Stone,
+                                India.</p>
                         </li>
                         <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
@@ -505,13 +526,12 @@ const Home = () => {
                       transition border-transparent hover:border hover:border-[#494949] ">
                         <li
                             className="base-font text-white font-bold text-3xl sm:w-1/2 sm:text-[16px] col:w-full col:text-center col:mb-[10px]">
-                            2017 - 2018</li>
+                            29 january 2023 -  28 february 2023</li>
                         <li><img src="/assets/images/work/2.png" alt=""
                                 className="sm:w-1/2 col:w-full col:text-center max-w-[100px] col:mx-auto" /></li>
                         <li className="sm:w-1/2 col:w-full col:text-center col:mt-[20px]">
-                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">UI/UX Designer</h2>
-                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Gallerie
-                                Ontario, Canada <span className="text-[#727272] inline-block">(Remote)</span></p>
+                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">Html/React work</h2>
+                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Huede Design Studio, Indore, India <span className="text-[#727272] inline-block">(Internship)</span></p>
                         </li>
                         <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
@@ -523,32 +543,13 @@ const Home = () => {
                       transition border-transparent hover:border hover:border-[#494949] ">
                         <li
                             className="base-font text-white font-bold text-3xl sm:w-1/2 sm:text-[16px] col:w-full col:text-center col:mb-[10px]">
-                            2019 - 2020</li>
+                            1 March 2023 -  till date</li>
                         <li><img src="/assets/images/work/3.png" alt=""
                                 className="sm:w-1/2 col:w-full col:text-center max-w-[100px] col:mx-auto" / ></li>
                         <li className="sm:w-1/2 col:w-full col:text-center col:mt-[20px]">
-                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">Seinor UI/UX Desinger
+                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">React / Node Developer
                             </h2>
-                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Morson Hybrid,
-                                Canada</p>
-                        </li>
-                        <li className="col:text-center col:mt-[10px]"><a href="/"
-                                className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
-                                <i className="ti-arrow-right transition mr-7 text-[16px] col:mr-[5px]"></i>Go to website</a>
-                        </li>
-                    </ul>
-                    <ul className="flex items-center justify-between sm:flex-wrap col:block 
-                     bg-[#282828] px-[70px] md:px-[30px] py-[20px] rounded-lg border
-                      transition border-transparent hover:border hover:border-[#494949] ">
-                        <li
-                            className="base-font text-white font-bold text-3xl sm:w-1/2 sm:text-[16px] col:w-full col:text-center col:mb-[10px]">
-                            2021 - 2022</li>
-                        <li><img src="/assets/images/work/4.png" alt=""
-                                className="sm:w-1/2 col:w-full col:text-center max-w-[100px] col:mx-auto" /></li>
-                        <li className="sm:w-1/2 col:w-full col:text-center col:mt-[20px]">
-                            <h2 className="base-font text-white font-bold text-2xl sm:text-[16px] ">Product Designer</h2>
-                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Myant Inc.
-                                Etobicoke, ON <span className="text-[#727272] inline-block">(Remote)</span> </p>
+                            <p className="base-font text-[#DD584F] font-normal text-[15px] sm:text-[14px]">Huede Design Studio, Indore, India <span className="text-[#727272] inline-block">(work)</span></p>
                         </li>
                         <li className="col:text-center col:mt-[10px]"><a href="/"
                                 className="text-white text-[16px] font-bold transition hover:text-[#FFE600] sm:w-1/2 sm:text-[14px] col:w-full col:text-center">
@@ -599,7 +600,9 @@ const Home = () => {
                 </div>
                 <div className="wpo-project-slide owl-carousel pb-[90px] md:pb[60px] owl-loaded owl-drag">
 
-                <div className="owl-stage-outer"><div className="owl-stage" style={{transform: 'translate3d(-2700px, 0px, 0px)', transition: 'all 0.3s ease 0s', width: '5400px'}}><div className="owl-item cloned" style={{width: '420px', marginRright: '30px'}}><div className="project-item group">
+                <div className="owl-stage-outer"><div className="owl-stage" style={{transform: 'translate3d(-2700px, 0px, 0px)', transition: 'all 0.3s ease 0s', width: '5400px'}}>
+                
+                <div className="owl-item cloned" style={{width: '420px', marginRright: '30px'}}><div className="project-item group">
                         <div className="overflow-hidden">
                             <img className="w-full transition ease-in-out scale-100 group-hover:scale-110" src="/assets/images/project/img-1.jpg" alt="" />
                         </div>
@@ -730,122 +733,6 @@ const Home = () => {
         </section>
         {/* <!-- end elito-project-section --> */}
 
-        {/* <!-- start elito-testimonial-section --> */}
-        <section className="relative bg-[#2C2C2C] z-50">
-            <div className="section-wrap col:pt-[130px] overflow-hidden">
-                <div className="wraper">
-                    <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center relative z-20 wpo-testimonial-wrap">
-                        <div className="relative w-[474px] h-[469px] col:w-[220px] col:h-[220px] z-10 flex justify-center flex-col mx-auto md:mb-[40px]">
-                             <div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] z-10 sm:mx-auto">
-                                <div className="slider-for slick-initialized slick-slider">
-                                    <div aria-live="polite" className="slick-list draggable"><div className="slick-track" style={{opacity: '1', width: '1500px'}} role="listbox"><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '250px', position: 'relative', left: '0px', top: '0px', zIndex: '999', opacity: '1'}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide00">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-1.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="1" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-250px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide01">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-2.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="2" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-500px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide02">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-3.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="3" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-750px',top: '0px' ,zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide03">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-4.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="4" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1000px', top:' 0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide04">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-5.jpg" alt="" />
-                                    </div><div className="relative w-[250px] h-[250px] col:w-[180px] col:h-[180px] rounded-[8px] slick-slide" data-slick-index="5" aria-hidden="true" style={{width: '250px', position: 'relative', left: '-1250px', top: '0px', zIndex: '998', opacity: '0',}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide05">
-                                        <img className="rounded-[50%]" src="/assets/images/testimonial/img-6.jpg" alt="" />
-                                    </div></div></div>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                </div>
-                                    <div className="absolute left-[-35px] top-[-25%]">
-                                        <img className="w-[80px] h-[80px] rounded-[50%] object-cover col:w-[60px] col:h-[60px]" src="/assets/images/testimonial/img-2.jpg" alt="" />
-                                    </div>
-                                    <div className="absolute left-auto top-[-18%] col:top-[-20%]  right-[-120px] col:right-[-50px]">
-                                        <img className="w-[80px] h-[80px] rounded-[50%] object-cover col:w-[60px] col:h-[60px]" src="/assets/images/testimonial/img-3.jpg" alt="" />
-                                    </div>
-                                    <div className="absolute left-[-120px] top-auto bottom-0 col:left-[-50px] ">
-                                        <img className="w-[80px] h-[80px] rounded-[50%] object-cover col:w-[60px] col:h-[60px]" src="/assets/images/testimonial/img-4.jpg" alt="" />
-                                    </div>
-                                    <div className="absolute left-auto top-auto bottom-0 right-[-85px] col:right-[-60px]">
-                                        <img className="w-[60px] h-[60px] rounded-[50%] object-cover col:w-[40px] col:h-[40px]" src="/assets/images/testimonial/img-5.jpg" alt="" />
-                                    </div>
-                                    <div className="absolute top-auto bottom-[-104px] right-[1px] left-[45%] col:bottom-[-65px]">
-                                        <img className="w-[60px] h-[60px] rounded-[50%] object-cover col:w-[40px] col:h-[40px]" src="/assets/images/testimonial/img-6.jpg" alt="" />
-                                    </div>
-                                    <div className="absolute w-[130%] h-[130%]  left-[-14%] top-[-16%] rounded-[50%] -z-10 border border-[#ffffff1f]"></div>
-                                    <div className="absolute w-[160%] h-[160%]  left-[-28%] top-[-30%] rounded-[50%] -z-10 border border-[#ffffff1f]"></div>
-                                    <div className="absolute w-[190%] h-[190%]  left-[-42%] top-[-45%] rounded-[50%] -z-10 border border-[#ffffff1f]"></div>
-                                    <div className="absolute top-[50%] left-[30%]  transform -translate-x-1/2 -translate-y-1/2 -z-20">
-                                        <svg className="fill-[#FFE600]" width="750" height="750" viewBox="0 0 750 750" fill="none">
-                                            <g filter="url(#filter0_f_39_4154)">
-                                                <circle r="125" transform="matrix(-1 0 0 1 375 375)" fillOpacity="0.4"></circle>
-                                            </g>
-                                            <defs>
-                                                <filter id="filter0_f_39_4154" x="0" y="0" width="750" height="750" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                                                    <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
-                                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
-                                                    <feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_39_4154"></feGaussianBlur>
-                                                </filter>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                             </div>
-                        </div>
-                        <div className="col:mt-[70px]">
-                            <div className="slider-nav slick-initialized slick-slider slick-dotted" role="toolbar">
-                                <div aria-live="polite" className="slick-list draggable"><div className="slick-track" style={{opacity: '1', width: '5232px', transform: 'translate3d(-654px, 0px, 0px)'}} role="listbox"><div className="sm:text-center slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style={{width: '654px'}} tabIndex="-1">
-                                    <h2 className="font-medium text-[32px] leading-[52px]
-                                     text-white font-base-font mb-[20px] sm:text-[24px] sm:leading-[35px] sm:mb-[10px]">Many desktop publishing packages and editors now use as their.</h2>
-                                    <p className="font-normal text-[16px] leading-[30px] text-[#D8D8D8] ">It is a long established fact that a reader will be distracted by the
-                                        readable
-                                        content of page when looking at its layout point of using is that it has
-                                        more-or-less
-                                        normal distribution of letters, as opposed to using 'Content here,
-                                        content here',
-                                        making look like readable English</p>
-                                    <div className="mt-[30px]">
-                                        <h3 className="font-semibold text-[26px] font-base-font leading-[31px]
-                                            flex items-center text-white sm:justify-center sm:text-[18px]">Cathi Falcon, 
-                                            <span className="font-normal text-[14px] leading-[17px] text-[#D8D8D8] block ml-[10px] relative top-[3px]">Software Engineer</span>
-                                        </h3>
-                                    </div>    
-                                </div>
-                                <div className="sm:text-center slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style={{width: '654px'}} tabIndex="-1" role="option" aria-selected="true"
- aria-describedby="slick-slide10">
-                                    <h2 className="font-medium text-[32px] leading-[52px]
-                                     text-white font-base-font mb-[20px] sm:text-[24px] sm:leading-[35px] sm:mb-[10px]">Many desktop publishing packages and editors now use as their.</h2>
-                                    <p className="font-normal text-[16px] leading-[30px] text-[#D8D8D8] ">It is a long established fact that a reader will be distracted by the
-                                        readable
-                                        content of page when looking at its layout point of using is that it has
-                                        more-or-less
-                                        normal distribution of letters, as opposed to using 'Content here,
-                                        content here',
-                                        making look like readable English</p>
-                                    <div className="mt-[30px]">
-                                        <h3 className="font-semibold text-[26px] font-base-font leading-[31px]
-                                            flex items-center text-white sm:justify-center sm:text-[18px]">Cathi Falcon, 
-                                            <span className="font-normal text-[14px] leading-[17px] text-[#D8D8D8] block ml-[10px] relative top-[3px]">Software Engineer</span>
-                                        </h3>
-                                    </div>    
-                                </div></div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="absolute w-2/5 h-[110%] bg-[#262626] top-[-70px] left-0 z-1 clip-your-needful-style md:hidden"></div> 
-            <div className="absolute right-0 bottom-0">
-                <img src="/assets/images/testimonial/shape.png" alt="" />
-            </div>
-        </section>
-        {/* <!-- end elito-testimonial-section --> */}
-
         {/* <!-- start elito-pricing-section --> */}
         <section className="section-wrap bg-[#191919] overflow-hidden z-50" id='pricing'>
             <div className="wraper">
@@ -943,156 +830,14 @@ const Home = () => {
             </div>
         </section>
         {/* <!-- end elito-pricing-section --> */}
+        <section className="wpo-blog-section section-padding">
 
-        {/* <!-- start elito-blog-section --> */}
-        <section className="bg-[#262626] relative overflow-hidden z-10 pb-[360px] pt-[120px] md:py-[90px] sm:py-[80px]">
-            <div className="wraper">
-                {/* <!-- start section title --> */}
-                <div className="max-w-[640px] mx-auto text-center text-white mb-[60px] md:mb-[40px]">
-                    <h2 className="base-font font-bold text-5xl md:text-[35px] sm:text-[22px] mb-[15px]">Latest News</h2>
-                    <p className="base-font text-lg font-normal px-12">Must explain to you how all this mistaken idea
-                        pleasure
-                        born and give you a complete account.</p>
-                </div>
-                {/* <!-- end section title --> */}
-                <div className="wpo-blog-slide owl-carousel owl-loaded owl-drag">
-
-                <div className="owl-stage-outer"><div className="owl-stage" style={{transform: 'translate3d(-1350px, 0px, 0px)', transition: 'all 0.3s ease 0s', width: '4050px'}}><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-1.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                02, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">Have
-                                    evolved over the years sometimes accident.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-2.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                03, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    Internet tend to repeat predefined chunks.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-3.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                04, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    standard chunk of used since the interested.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item active" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-1.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                02, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">Have
-                                    evolved over the years sometimes accident.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item active" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-2.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                03, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    Internet tend to repeat predefined chunks.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item active" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-3.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                04, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    standard chunk of used since the interested.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-1.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                02, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">Have
-                                    evolved over the years sometimes accident.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-2.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                03, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    Internet tend to repeat predefined chunks.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div><div className="owl-item cloned" style={{width: '420px', marginRight: '30px',}}><div className="blog-item">
-                        <div>
-                            <img className="w-full" src="assets/images/blog/img-3.jpg" alt="" />
-                        </div>
-                        <div className="p-7 pl-0">
-                            <span className="base-font inline-block text-white px-3 py-1 bg-[#3C3C3C] text-[14px] ">January
-                                04, 2022</span>
-                            <h2 className="text-[25px] font-semibold leading-9 mt-4 mb-5 font-base-font xl:text-[22px] md:text-[20px]">
-                                <a className=" text-white transition hover:text-[#3faf60]" href="blog-single.html">The
-                                    standard chunk of used since the interested.</a>
-                            </h2>
-                            <a className="font-base-font text-white transition font-medium text-[16px] inline-block pl-[30px] leading-5 relative before:absolute before:transition before:content-['\e628'] before:font-[themify] before:left-[-5px] before:top-0 hover:text-[#FFE600] hover:before:left-0" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div></div></div></div></div>
-            </div>
-            <div className="absolute right-0 bottom-[-75%]  -z-10">
-                <svg className="fill-[#59c378]" width="1319" height="1567" viewBox="0 0 1319 1567" fill="none">
-                    <g filter="url(#filter0_f_39_3832)">
-                        <circle cx="803" cy="803" r="303" fill="#59C378" fillOpacity="0.5"></circle>
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_39_3832" x="0" y="0" width="1606" height="1606" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
-                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_3832"></feGaussianBlur>
-                        </filter>
-                    </defs>
+            <div className="shadow-shape bg-[#191919]">
+                <svg width="1319" height="200" viewBox="0 0 1319 1567" fill="none">
+            
                 </svg>
             </div>
         </section>
-        {/* <!-- end elito-blog-section --> */}
-
 <Footer/>
 
     </div>
