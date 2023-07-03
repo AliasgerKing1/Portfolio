@@ -1,12 +1,13 @@
 /*eslint-disable */
 // aliasger-portfolio
 import { useState, useEffect } from "react";
-import { Container, Row, Col, NavLink } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import { HashLink } from 'react-router-hash-link';
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { NavLink } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,7 +15,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Backend Developer", "Python Developer" ];
+  const toRotate = [ "Frontend Developer", "Backend Developer", "Python Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -59,9 +60,11 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Aliasger`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Backend Developer", "Python Developer ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Aliasger`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend Developer", "Backend Developer", "Python Developer ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a full stack developer. My passion is coding. I ensure that I stay with my work dedicately till I complete the same. I would do my best if given an opportunity to advance the company/ organization I work in.</p>
+                  {/* <NavLink to='#connect'> */}
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* </NavLink> */}
               </div>}
             </TrackVisibility>
           </Col>
