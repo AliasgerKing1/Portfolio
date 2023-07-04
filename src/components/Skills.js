@@ -42,11 +42,11 @@ export const Skills = () => {
                                 <h5>React Js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="node" />
+                                <img src={meter1} alt="node" />
                                 <h5>Node js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="mongodb" />
+                                <img src={meter3} alt="mongodb" />
                                 <h5>Mongodb</h5>
                             </div>
                             <div className="item">
@@ -54,7 +54,7 @@ export const Skills = () => {
                                 <h5>Angular Js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="python" />
+                                <img src={meter2} alt="python" />
                                 <h5>Python</h5>
                             </div>
                         </Carousel>

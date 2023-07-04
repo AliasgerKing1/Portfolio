@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,12 +13,17 @@ export const Projects = () => {
     {
       title: "MKYD Gaming",
       description: "an website for playing games and earn money.",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
     },
     {
       title: "Website Generator Ai",
-      description: "It allow user to generate website by giving a drawing design",
-      imgUrl: projImg2,
+      description: "It allow user to generate website by giving a drawing design.",
+      imgUrl: projImg3,
+    },
+    {
+      title: "Portfolio Website",
+      description: "It is my portfolio website that you see.",
+      imgUrl: projImg1,
     },
   ];
 
@@ -58,12 +64,12 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    {/* <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}

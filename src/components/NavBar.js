@@ -6,6 +6,7 @@ import logo2 from '../assets/img/logo-dark.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import resume from "../assets/resume/aliasger-resume.pdf"
 import { HashLink } from 'react-router-hash-link';
 import { NavLink } from "react-router-dom";
 import {
@@ -56,12 +57,13 @@ console.log(logoBg)
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href={resume} target="__blank" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <NavLink to=""><img src={navIcon1} alt="linkedin" /></NavLink>
-                <NavLink to=""><img src={navIcon2} alt="facebook" /></NavLink>
-                <NavLink to=""><img src={navIcon3} alt="instagram" /></NavLink>
+                <NavLink to="https://www.linkedin.com/in/aliasger-baroor-52423a20b/" target="__blank"><img src={navIcon1} alt="linkedin" /></NavLink>
+                {/* <NavLink to=""><img src={navIcon2} alt="facebook" /></NavLink> */}
+                <NavLink to="https://www.instagram.com/stunning_arter_bright/" target="__blank"><img src={navIcon3} alt="instagram" /></NavLink>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
