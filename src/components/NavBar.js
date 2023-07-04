@@ -61,9 +61,9 @@ console.log(logoBg)
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <NavLink to="https://www.linkedin.com/in/aliasger-baroor-52423a20b/" target="__blank"><img src={navIcon1} alt="linkedin" /></NavLink>
+                <a href="https://www.linkedin.com/in/aliasger-baroor-52423a20b/" target="__blank"><img src={navIcon1} alt="linkedin" /></a>
                 {/* <NavLink to=""><img src={navIcon2} alt="facebook" /></NavLink> */}
-                <NavLink to="https://www.instagram.com/stunning_arter_bright/" target="__blank"><img src={navIcon3} alt="instagram" /></NavLink>
+                <a href="https://www.instagram.com/stunning_arter_bright/" target="__blank"><img src={navIcon3} alt="instagram" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
